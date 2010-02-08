@@ -50,6 +50,7 @@ int agoInit(int argc, char **argv, int *numprocs)
 
     // Cria Tipo MPI agoDataPackage
     makeNewTypeDataPackage();
+
   }
 
   return (i_myid);

@@ -48,7 +48,8 @@ int main (int argc, char **argv)
     agoWorkerInit(i_processId, i_numprocs);
   }
 
-  exit(0);
+  exit(1);
+  
 }
 /* main.c */
 /*  Under the Terms of the GPL - 2005,06 - Marcelo Soares Souza - CEBACAD (http://www.cebacad.net) */
