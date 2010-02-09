@@ -79,8 +79,7 @@ void agoMasterInit(int myid, int numprocs)
 void *agoMasterProcess()
 {
 
-  int i_workerId = 1, i_numBlocks = (NUM_BLOCKS - 1), i_offSetidPackage = 1, i_numBlocksOrig = NUM_BLOCKS,
-                                    i_idFail = 0;
+  int i_workerId = 1, i_numBlocks = (NUM_BLOCKS - 1), i_offSetidPackage = 1, i_numBlocksOrig = NUM_BLOCKS, i_idFail = 0;
 
   unsigned int ui_sync1 = 0, ui_sync2 = 0, ui_loopMaster = FLAG_START, ui_timeSignal = 0, ui_workerList[NUM_WORKERS];
 
